@@ -83,7 +83,6 @@ feather-format==0.4.1
 filelock==3.0.12
 firebase-admin==4.4.0
 fix-yahoo-finance==0.0.22
-Flask==1.1.4
 flask-ngrok==0.0.25
 flatbuffers==1.12
 folium==0.8.3
