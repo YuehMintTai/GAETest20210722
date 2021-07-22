@@ -8,7 +8,6 @@ appdirs==1.4.4
 argon2-cffi==20.1.0
 arviz==0.11.2
 astor==0.8.1
-astropy==4.2.1
 astunparse==1.6.3
 async-generator==1.10
 atari-py==0.2.9
