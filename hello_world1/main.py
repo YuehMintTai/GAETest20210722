@@ -24,7 +24,15 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!你好..早安'
+    return '<h1>Hello World!你好..早安</h1>'
+
+@app.route('/details')
+def details():
+    return '<h1>這是details頁</h1>'
+
+@app.route('/test')
+def test():
+    return '<h1>這是test頁</h1>'
 
 
 @app.errorhandler(500)
@@ -39,5 +47,5 @@ def server_error(e):
 if __name__ == '__main__':
     # This is used when running locally. Gunicorn is used to run the
     # application on Google App Engine. See entrypoint in app.yaml.
-    app.run(host='127.0.0.1', port=8080, debug=True)
+    app.run(host='127.0.0.1', port=8000, debug=True)
 # [END gae_flex_quickstart]
